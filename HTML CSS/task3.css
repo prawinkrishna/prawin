@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav {
+  background: rgb(2, 2, 110);
+}
+.logo {
+  color: white;
+  height: 55px;
+  padding: 8px 15px 1px;
+}
+ul {
+  float: right;
+}
+li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(2, 2, 110);
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+div {
+  display: inline-block;
+}
